@@ -1,0 +1,15 @@
+# Uncomment this line to define a global platform for your project
+ platform :ios, '8.0'
+
+target 'test_ DZNEmptyDataSet' do
+  pod 'DZNEmptyDataSet'
+
+  target 'test_ DZNEmptyDataSetTests' do
+    inherit! :search_paths
+  end
+
+  target 'test_ DZNEmptyDataSetUITests' do
+    inherit! :search_paths
+  end
+
+end
